@@ -1189,19 +1189,19 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "C:\\Users\\14-dq2521\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Practica02/Practica02.csproj",
+      "projectUniqueName": "C:\\Users\\14-dq2521\\Documents\\78935\\Practica02\\Practica02.csproj",
       "projectName": "Practica02",
-      "projectPath": "/Practica02/Practica02.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/Practica02/obj/",
+      "projectPath": "C:\\Users\\14-dq2521\\Documents\\78935\\Practica02\\Practica02.csproj",
+      "packagesPath": "C:\\Users\\14-dq2521\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\14-dq2521\\Documents\\78935\\Practica02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\14-dq2521\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1246,6 +1246,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.1, 8.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.1, 8.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.1, 8.0.1]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.1, 8.0.1]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1254,7 +1272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
