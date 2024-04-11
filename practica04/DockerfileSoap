@@ -1,0 +1,5 @@
+# Esta imagen tendra el punto net y Soap
+from mcr.microsoft.com/dotnet/sdk:8.0
+run dotnet new web -o ejemplo
+workdir /ejemplo
+run dotnet add package SoapCore

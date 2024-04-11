@@ -1,0 +1,9 @@
+#Imagen del SW de calculadora y mensajes (practica03)
+#Construie la nueva imagen a partir del .net 5.0
+from mcr.microsoft.com/dotnet/sdk:8.0
+run git clone https://github.com/dangj501/78935
+run mv /78935/practica03/app
+workdir /app
+run dotnet add package SoapCore
+run dotnet dev-certs https --trust
+cmd ["dotnet", "run"]
