@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" 
+targetNamespace="t4is.uv.mx/saludos"
+xmlns:tns="t4is.uv.mx/saludos" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SaludarRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="SaludarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="saludo" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="BuscarSaludosRequest" />
+
+  <xs:element name="BuscarSaludosResponse">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="Saludo" maxOccurs="unbounded" >
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="nombre" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+</xs:schema>
